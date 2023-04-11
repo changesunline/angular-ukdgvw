@@ -12,10 +12,12 @@ import { bootstrapApplication } from '@angular/platform-browser';
     <a target="_blank" href="https://angular.io/start">
       Learn more about Angular 
     </a>
+    <div class="page">{{ page }}</div>
   `,
 })
 export class App {
   name = 'Angular';
+  page = 'this is angular';
 }
 
 bootstrapApplication(App);

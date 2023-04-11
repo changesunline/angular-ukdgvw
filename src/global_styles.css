@@ -1,1 +1,5 @@
 /* Add application styles & imports to this file! */
+.page {
+  font-size: 20px;
+  color: blueviolet;
+}
